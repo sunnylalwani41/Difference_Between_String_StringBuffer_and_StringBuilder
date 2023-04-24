@@ -1,0 +1,44 @@
+Difference b/w String, StringBuffer, StringBuilder
+
+1. Stroage:-
+String:- (i) String object creates with "new" keyword then it will store in Heap Area as well as String Constant Pool if it is not present
+(ii) String object creates with string literal then it will store in String Constant Pool.
+
+StringBuffer:- StringBuffer stores inside heap area.
+
+StringBuilder:- StringBuilder stores inside heap area.
+
+2. Object:-
+String:- String object is immutable.
+
+StringBuffer:- StringBuffer object is mutable.
+
+StringBuilder:- StringBuilder object is mutable.
+
+3. Memory:- 
+String:- If we change the string lot of time then it will take lot of memory.
+
+StringBuffer:- It is occupy less memory.
+
+StringBuilder:- It is occupy less memory.
+
+4. Thread Safe:-
+String:- String`s method is not thread safe.
+
+StringBuffer:- All method is synchronized, so it is thread safe.
+
+StringBuilder:- All method is non-synchronized, so it is not thread safe.
+
+5.Performance:- 
+String:- Slow
+
+StringBuffer:- Fast comparatively String
+
+StringBuilder:- Fast comparatively StringBuffer.
+
+6. Uses:-
+String:- String is use where data is not change frequently.
+
+StringBuffer:- StringBuffer is use where data is change frequently.
+
+StringBuilder:- StringBuilder is use where data is change frequently.
